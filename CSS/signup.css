@@ -1,0 +1,63 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #ffffff; 
+  }
+  
+  h2 {
+    margin-top: 0;
+    font-size: 36px;
+    font-weight: bold;
+    color: #0d9619;
+    text-align: center;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .button {
+    display: block;
+    width: 150px;
+    height: 150px;
+    margin: 0 10px;
+    background-color: #91ff00;
+    color: rgb(6, 6, 6);
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .button:hover {
+    background-color: #8edd0f; 
+  }
+  
+  .patient-button {
+    background-image: url('../Images/patient.jpg');
+  }
+  
+  .doctor-button {
+    background-image: url('../Images/doctor.jpg');
+  }
+  
+  .company-button {
+    background-image: url('../Images/company.jpeg');
+  }
+  
+  .pharmacist-button {
+    background-image: url('../Images/pharmacist.jpg');
+  }
+  
+  .admin-button {
+    background-image: url('../Images/admin.jpg');
+  }
+  
