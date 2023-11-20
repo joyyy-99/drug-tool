@@ -11,7 +11,7 @@
         rgba(0, 0, 0, 0.75),
         rgba(0, 0, 0, 0.75)
       ),
-      url(Images/background\ image.avif);
+      url(../Images/background1.avif);
     background-size: cover;
     background-position: center;
     overflow-y: scroll;
@@ -155,16 +155,7 @@
     font-weight: 100;
     line-height: 25px;
   }
-  ::-webkit-scrollbar{
-    width: 15px;
-  }
-  ::-webkit-scrollbar-track{
-    background: #ffffff;
-  }
-   ::-webkit-scrollbar-thumb{
-    background: linear-gradient(#48e604,#8edd0f);
-   }
- /* Your existing CSS rules here */
+ 
 
 .section {
   position: relative;
