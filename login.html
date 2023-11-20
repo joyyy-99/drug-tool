@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Drug Dispensing Tool - Login</title>
+  <link rel="stylesheet" type="text/css" href="CSS/login.css">
+</head>
+<body>
+  <div class="Back">
+
+  </div>
+  <div class="container">
+    <form action="login.php" method="post">
+      <h2>Login</h2>
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" required><br><br>
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required><br><br>
+      <label for="role">Role:</label>
+      <select id="role" name="role">
+        <option value="patient">Patient</option>
+        <option value="doctor">Doctor</option>
+        <option value="pharmacist">Pharmacist</option>
+        <option value="company">Company</option>
+        <option value="admin">Admin</option>
+      </select><br><br>
+      <input type="submit" value="Login">
+    </form>
+  </div>
+</body>
+</html>

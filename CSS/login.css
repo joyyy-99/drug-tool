@@ -1,0 +1,49 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffffff;
+}
+  
+  form {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #000000;
+    background-color: #ffffff; 
+    text-align: center;
+  }
+  
+  h2 {
+    margin-top: 0;
+    color: ff4081; 
+  }
+  
+  label {
+    display: inline-block;
+    text-align: left;
+    margin-bottom: 10px; 
+  }
+  
+  input[type="text"],
+  input[type="password"],
+  select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box; 
+  }
+  
+  input[type="submit"] {
+    background-color: #19a244; 
+    color: rgb(3, 3, 3);
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #17943d; 
+  }
+
+
