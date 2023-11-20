@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+  
+  .banner {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.75),
+        rgba(0, 0, 0, 0.75)
+      ),
+      url(Images/background\ image.avif);
+    background-size: cover;
+    background-position: center;
+    overflow-y: scroll;
+  }
+  
+  .navbar {
+    width: 90%;
+    margin: auto;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo {
+    width: 120px;
+    cursor: pointer;
+  }
+  
+  .logoo {
+    width: 90%;
+    margin: auto;
+    padding: 0 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo2 {
+    width: 120px;
+    cursor: pointer;
+    background: transparent;
+  }
+  
+  .navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+  }
+  
+  .navbar ul li a {
+    text-decoration: none;
+    color: rgb(173, 239, 41);
+    text-transform: uppercase;
+  }
+  
+  .navbar ul li::after {
+    content: "";
+    height: 3px;
+    width: 0;
+    background: #8edd0f;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    transition: 0.5s;
+  }
+  
+  .navbar ul li:hover::after {
+    width: 100%;
+  }
+  
+  .content {
+    width: 100%;
+    position: relative;
+    top: 20%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #8edd0f;
+  }
+  
+  .content h1 {
+    font-size: 70px;
+    margin-top: 80px;
+  }
+  
+  .content p {
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+  }
+  
+  button {
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #8edd0f;
+    background: transparent;
+    color: #ffffff;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  span {
+    background: #8edd0f;
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+  }
+  
+  button:hover span {
+    width: 100%;
+  }
+  
+  button:hover {
+    border: none;
+  }
+  
+  .section {
+    position: relative;
+    height: 100vh;
+  }
+  .content1,
+  .content2,
+  .content3 {
+    top: 45%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #8edd0f;
+  }
+   
+  .content1 h2,
+  .content2 h2,
+  .content3 h2 {
+    font-size: 70px;
+    margin-top: 80px;
+  }
+  
+  .content1 p,
+  .content2 p,
+  .content3 p {
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+  }
+  ::-webkit-scrollbar{
+    width: 15px;
+  }
+  ::-webkit-scrollbar-track{
+    background: #ffffff;
+  }
+   ::-webkit-scrollbar-thumb{
+    background: linear-gradient(#48e604,#8edd0f);
+   }
+ /* Your existing CSS rules here */
+
+.section {
+  position: relative;
+  height: 100vh;
+  text-align: center;
+  color: #8edd0f;
+  padding: 40px 20px;
+}
+
+.section h2 {
+  font-size: 70px;
+  margin-top: 80px;
+}
+
+.section p {
+  margin: 20px auto;
+  font-weight: 100;
+  line-height: 25px;
+}
+
+.section-image {
+  max-width: 100%;
+  height: auto;
+  margin: 20px auto;
+  display: block;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-height: 300px; /* Set the maximum height for the image */
+}
+.footer {
+  background-color: #8edd0f;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+  
+  
+
+  
+  
