@@ -89,7 +89,7 @@ if ($role === 'patient') {
             $_SESSION['username'] = $usernames;
     
             // Redirect to admin page
-            header('Location: admin_view.php');
+            header('Location: admin_portal.php');
             exit();
         } else {
             // Invalid credentials
