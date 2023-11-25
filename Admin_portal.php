@@ -2,14 +2,14 @@
 <html>
 <head>
     <title>Admin Portal</title>
-    <link rel="stylesheet" href="admin_portal.css">
+    <link rel="stylesheet" href="CSS/admin_portal.css">
 </head>
 <body>
     <header>
         <h1>Welcome to My Afya Drug Dispensing Tool</h1>
         <?php
         session_start();
-        require_once 'connect.php';
+        require_once 'Database/connect.php';
 
         if (isset($_SESSION['role']) && $_SESSION['role'] === 'admin') {
             $username = $_SESSION['username'];

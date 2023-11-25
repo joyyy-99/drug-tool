@@ -1,0 +1,46 @@
+/* Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2; /* Grey background */
+    color: #333; /* Dark grey text color */
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+h2 {
+    color: #009933; /* Green header color */
+    margin-top: 20px;
+}
+
+/* Image Container Styles */
+div {
+    background-color: white; /* White image container background */
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc; /* Grey border */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* Shadow effect */
+}
+
+/* Image Styles */
+img {
+    max-width: 100%; /* Resize images to fit container width */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* "View Details" Link Styles */
+a {
+    display: block; /* Make the link a block element for spacing */
+    text-align: center;
+    background-color: #009933; /* Green button background */
+    color: white; /* White button text color */
+    text-decoration: none;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px; /* Rounded corners */
+}
+
+/* Hover effect for "View Details" link */
+a:hover {
+    background-color: #006622; /* Darker green on hover */
+}
