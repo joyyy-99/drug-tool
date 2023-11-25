@@ -1,0 +1,151 @@
+body {
+    font-family: Arial, sans-serif;
+     background-color: #8edd0f;
+     margin: 0;
+     padding: 0;
+ }
+ 
+ header {
+     background-color: #8edd0f;
+     padding: 10px;
+     text-align: center;
+     color: #fff;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     height: 180px; /* Adjust the header height as needed */
+ }
+ 
+ .profile-info {
+     position: absolute;
+     top: 10px;
+     right: 10px;
+     display: flex;
+     flex-direction: column;
+     align-items: flex-end; /* Align items to the right */
+ }
+ 
+ .profile-image {
+     width: 100px;
+     height: 100px;
+     object-fit: cover;
+     border-radius: 50%;
+     margin-bottom: 10px; /* Add some space between the picture and the text below */
+ }
+ 
+ main {
+     width: 50%;
+     margin: 50px auto;
+     text-align: center;
+ }
+ 
+ table {
+     margin: 50px auto;
+     width: 100%;
+ }
+ 
+ table, th, td {
+     border-collapse: collapse;
+     border: 1px solid #000;
+ }
+ 
+ th, td {
+     padding: 10px;
+ }
+ 
+ form {
+     margin: 20px 0;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+ }
+ 
+ label {
+     margin-bottom: 5px;
+ }
+ 
+ input, select {
+     margin-bottom: 10px;
+ }
+ 
+ button {
+     padding: 10px;
+     background-color: #4CAF50;
+     color: white;
+     border: none;
+     border-radius: 5px;
+     cursor: pointer;
+ }
+ 
+ button:hover {
+     background-color: #45a049;
+ }
+ .navbar ul li {
+     list-style: none;
+     display: inline-block;
+     margin: 0 20px;
+     position: relative;
+ }
+ 
+ .navbar ul li a {
+     text-decoration: none;
+     color: rgb(16, 16, 16);
+     text-transform: uppercase;
+ }
+ 
+ .navbar ul li::after {
+     content: "";
+     height: 3px;
+     width: 0;
+     background: #ffffff;
+     position: absolute;
+     left: 0;
+     bottom: -5px;
+     transition: 0.5s;
+ }
+ 
+ .navbar ul li:hover::after {
+     width: 100%;
+ }
+ 
+ .pic {
+     display: flex;
+     justify-content: center;
+     margin-top: 20px; /* Add some space between the header and the image */
+ }
+ 
+ .sub-menu-1
+ {
+     display:none;
+     position: absolute;
+     background: rgb(255, 255, 255);
+     margin-top: 15px;
+     margin-left: -15px;
+     transition: opacity 0.3s; /* Add a transition for smoother appearance/disappearance */
+     opacity: 0; /* Initially hide the sub-menu */
+     pointer-events: none; /* Disable pointer events on hidden sub-menu */
+ }
+ .navbar ul li:hover .sub-menu-1
+ {
+     display: block;
+     opacity: 1; /* Show the sub-menu on hover */
+     pointer-events: auto; /* Enable pointer events on visible sub-menu */
+     position: absolute;
+     background: rgb(255, 255, 255);
+     margin-top: 15px;
+     margin-left: -15px;
+ }
+ .navbar ul li:hover .sub-menu-1 ul
+ {
+     display: block;
+     margin: 10px;
+ }
+ .navbar ul li:hover .sub-menu-1 li
+ {
+     width: 150px;
+     padding: 10px;
+     border-radius: 0;
+     text-align: left;
+ }
+ 

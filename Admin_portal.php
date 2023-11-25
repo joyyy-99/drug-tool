@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>Admin Portal</title>
-    <link rel="stylesheet" href="admin_view.css">
+    <link rel="stylesheet" href="admin_portal.css">
 </head>
 <body>
     <header>
