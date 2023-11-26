@@ -192,5 +192,6 @@
             </tbody>
         </table>
     </main>
+    <script src="JS/admin_portal.js"></script>
 </body>
 </html>

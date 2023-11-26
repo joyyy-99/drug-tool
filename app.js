@@ -21,11 +21,11 @@ connection.connect((err) => {
 app.listen(3000,()=> console.log('Server running on PORT 3000'));
 //adding a new user
 app.post('/create',async (req,res) => {
-    const { firstname,lastname,gender,emailaddress} = req.body;
+    const { firstname,lastname,gender,emailaddress,} = req.body;
     try{
         connection.query(
-            "INSERT INTO users (Firstname,Lastname,Gender,Emailaddress) VALUES (?,?,?,?)",
-            [firstname,lastname,gender,emailaddress],
+            "INSERT INTO users (Firstname,Lastname,Gender,Emailaddress,) VALUES (?,?,?,?)",
+            [firstname,lastname,gender,emailaddress,],
             (err,results,fields) => {
                 if (err) {
                     console.log('Error while inserting user into the database',err);
